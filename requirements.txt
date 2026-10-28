@@ -1,0 +1,11 @@
+# Colab already ships torch/torchvision; do NOT reinstall them there.
+# Locally: pip install torch torchvision (pick the CUDA build from pytorch.org)
+ultralytics>=8.3,<9
+albumentations>=1.4
+pycocotools>=2.0.7
+opencv-python-headless>=4.8
+numpy
+pillow
+matplotlib
+tqdm
+tensorboard
